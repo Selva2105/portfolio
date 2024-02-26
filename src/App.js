@@ -11,6 +11,8 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import ProjectDetails from './components/ProjectDetails';
 import { useState } from 'react';
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 
 const Body = styled.div`
@@ -51,6 +53,8 @@ function App() {
           <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
         }
       </Body>
+      <Analytics />
+      <SpeedInsights />
     </ThemeProvider>
   );
 }
