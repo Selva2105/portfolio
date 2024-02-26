@@ -122,7 +122,7 @@ export const MobileIcon = styled.div`
 export const Span = styled.span`
     padding: 0 4px;
     font-weight:bold;
-    font-size:18px;
+    font-size:16px;
 `;
 
 export const MobileMenu = styled.div`

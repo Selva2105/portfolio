@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTheme } from 'styled-components';
-import { DiCssdeck } from 'react-icons/di'
+import { FaCode } from "react-icons/fa6";
 import { FaBars } from 'react-icons/fa'
 import { ButtonContainer, GitHubButton, MobileIcon, MobileLink, MobileMenu, Nav, NavItems, NavLink, NavLogo, NavbarContainer, Span } from './NavbarStyledComponent';
 import { Bio } from '../../data/constants'
@@ -13,7 +13,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <FaCode size="1.7rem" /> <Span> Portfolio</Span>
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {
