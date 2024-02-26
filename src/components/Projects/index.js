@@ -23,7 +23,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           </ToggleButtonGroup>
         ) : (
-          <Desc>No projects to display.</Desc>
+          <Desc>Under development</Desc>
         )}
 
         {projects.length > 0 && (

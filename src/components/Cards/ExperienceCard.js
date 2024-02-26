@@ -7,6 +7,7 @@ const Document = styled.img`
     width: fit-content;
     background-color: #000;
     border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
     &:hover{
         cursor: pointer;
         opacity: 0.8;
