@@ -14,7 +14,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Selva2105",
   resume:
-    "https://drive.google.com/file/d/1MopE_yUr891KsMuaP9nhwX74BX4Yg2xE/view?usp=sharing",
+    "https://drive.google.com/file/d/1xv-jHyOoFeCw-18eHjvix745Zyecr4Fa/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/selvaganapathi-kanakaraj/",
   twitter: "https://twitter.com/Selva47755",
   insta: "https://www.instagram.com/selvaganapathi_kanakaraj/",
